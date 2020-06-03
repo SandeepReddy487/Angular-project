@@ -1,0 +1,15 @@
+    <table class="table ">
+
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>gender</th>
+        <th>button</th>
+    </tr>
+    <tr *ngFor="let data of user"> 
+       <td> {{data.name}}</td>
+       <td> {{data.Age}}</td>
+       <td> {{data.gender}}</td>
+<td><button (click)="Submit(data)">submit</button></td>
+    </tr>
+</table>

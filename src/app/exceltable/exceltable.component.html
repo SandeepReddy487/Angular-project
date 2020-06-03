@@ -1,0 +1,24 @@
+<div class="container">
+<input type="file" style="display: inline-block;" (change)="incomingfile($event)" placeholder="Upload file" accept=".xlsx">
+<button type="button" class="btn btn-info" (click)="submit()">Upload</button>
+<div *ngIf= "b">
+<table border="2">
+  <tr>
+<th>Team</th>
+<th>Match</th>
+<th>Win</th>
+<th>Loss</th>
+<th>Cancel</th>
+<th>Point</th>
+  </tr>
+  <tr *ngFor="let obj of data" >
+<td>{{obj.Team}}</td>
+<td>{{obj.Match}}</td>
+<td>{{obj.Win}}</td>
+<td>{{obj.Loss}}</td>
+<td>{{obj.Cancel}}</td>
+<td>{{obj.Point}}</td>
+  </tr>
+</table>
+</div>
+</div>

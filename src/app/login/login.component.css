@@ -1,0 +1,21 @@
+.container,button{
+    left: 50%;
+    top:50%;
+     margin-left:32%;
+     /* margin-right: 25%; */
+    margin-top: 2%; 
+
+}
+ button{
+text-align: center;
+}
+input.ng-invalid {
+    background-color:lightyellow;
+}
+input.ng-valid {
+    background-color:lightgreen;
+}
+
+form.ng-dirty {
+    background-color:gray;
+}  

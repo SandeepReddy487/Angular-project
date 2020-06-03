@@ -1,0 +1,8 @@
+<div class="container" align="center">
+    <h2>mouse over and out</h2>
+    <img id="img" [src]="ads" (mouseover)="Add1()" (mouseout)="Add2()" width="200" height="200">
+   <br><br>
+    <h2>mouse down and up</h2>
+<img [src]="bulb" (mousedown)="ON()" (mouseup)="OFF()" width="200" height="200">
+<p>press hold down mouse button to ONbulb</p>
+</div>

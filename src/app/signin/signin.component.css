@@ -1,0 +1,21 @@
+.container,button{
+    left: 50%;
+    top:50%;
+     margin-left:32%;
+      margin-right: 25%; 
+    margin-top: 2%; 
+
+}
+ button{
+text-align: center;
+} 
+body{
+  background-image: url('https://www.elsetge.cat/myimg/f/37-370605_ten-advantages-of-wallpaper-soothing-for-eyes-and.jpg') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height:100%;
+}

@@ -1,0 +1,16 @@
+span{
+    width: 70px;
+    height: 45px;
+    margin-top: 20px;
+}
+#submit{
+    height: 50px;
+    margin-top: 20px;
+    margin: auto;
+    display: block;
+ 
+}
+.container{
+    width: 60%;
+    padding: 20px;
+}
